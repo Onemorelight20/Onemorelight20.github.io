@@ -10,6 +10,30 @@ body {
     text-align: center;
 }
 
+.container-f {
+    margin: 200px auto;
+    display: flex;
+    
+}
+
+.to-right {
+    text-align: end;
+    margin-right: 50px;
+}
+
+.to-right h1 {
+    margin-top: 0;
+}
+
+.item {
+    width: 50%;
+}
+
+.item p {
+    width: 30%;
+    margin-left: 10px;
+}
+
 .portret-img {
     height: 250px;
     width: 250px;
@@ -32,4 +56,66 @@ p {
     color: whitesmoke;
     font-size: 18px;
     margin-top: 5px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+ a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+  
+.navbar {
+    padding: 30px 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+.navbar a {   
+    margin-left: 30px;
+}
+
+hr {
+    margin: 0;
+}
+
+.navbar p {
+    margin-top: 0;
+    margin: 0 30px 0 auto;
+}
+
+.star {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 986px){
+    .container-f {
+        margin: 150px auto;
+        display: block;
+        
+    }
+
+    .item {
+        margin: 10px auto;
+    }
+
+    .to-right {
+        text-align: center;
+        margin: auto;
+    }
+
+    .item p {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
